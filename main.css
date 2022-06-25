@@ -116,7 +116,7 @@ i {
 /* End Of Footer Section */
 
 /* Responsive Section */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .header {
         display: flex;
         align-content: center;
@@ -151,5 +151,16 @@ i {
     }
     .nav-text {
         padding-left: 5px;
+    }
+    .container .hero {
+        display: flex;
+        align-items: center;
+        height: auto;
+        padding: 0px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    img {
+        max-width: 390px;
     }
 }
