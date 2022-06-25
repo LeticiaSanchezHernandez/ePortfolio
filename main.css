@@ -99,7 +99,7 @@ i {
         align-items: ;
         gap: 15px;
         flex-direction: column;
-        padding: 30px 20px;
+        padding: 30px 10px;
         height: 100px;
     }
     .nav ul {
