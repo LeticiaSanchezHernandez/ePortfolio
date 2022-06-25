@@ -11,10 +11,16 @@
     gap: 15px;
     flex-direction: row;
     padding: 50px 150px;
+    background-color: #87ceeb;
 }
 .header-logo {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+.typewrite {
+    text-decoration: none;
+    color: black;
 }
 .nav ul {
     list-style-type: none;
@@ -25,7 +31,17 @@
 }
 .nav-item {
     padding-left: 15px;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-text {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#nav-active {
+    font-weight: 900;
+}
+i {
+    color: rgb(255, 0, 221);
 }
