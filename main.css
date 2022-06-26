@@ -14,8 +14,8 @@
     gap: 15px;
     flex-direction: row;
     padding: 50px 150px;
-    background-color: #528AAE;
-    border-bottom: solid 2px #2E5984;
+    background-color: #CAEAFF;
+    border-bottom: solid 2px #E1E1E1;
     height: 150px;
 }
 body {
@@ -99,7 +99,7 @@ i {
 
 .hero-button {
     margin: 10px;
-    background-color:#528AAE;
+    background-color:#CAEAFF;
     padding: 10px;
     border: 1px solid #2E5984;
     border-radius: 3px;
@@ -114,24 +114,34 @@ img {
 
 /* Main Section */
 main div {
-    height: 400px;
-    background-color: #528AAE;
+    height: 300px;
+    background-color: #F4F4F4;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 140px;
+    padding: 10px;
     font-size: 20px;
 }
 /* End Of Main Section */
 
+/* CTA Section */
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+    margin: 10px;
+}
 /* Footer Section */
 footer div {
     height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #2E5984;
-    border-top: 1px solid white;
+    background-color: #CAEAFF;
+    border-top: 1px solid #E1E1E1;
 }
 /* End Of Footer Section */
 
