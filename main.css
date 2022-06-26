@@ -16,6 +16,7 @@
     padding: 50px 150px;
     background-color: #528AAE;
     border-bottom: solid 2px #2E5984;
+    height: 150px;
 }
 body {
     background-color: #ffffff;
@@ -112,11 +113,26 @@ img {
 /* End Of Hero Section */
 
 /* Main Section */
-
+main div {
+    height: 400px;
+    background-color: #528AAE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px;
+    font-size: 20px;
+}
 /* End Of Main Section */
 
 /* Footer Section */
-
+footer div {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E5984;
+    border-top: 1px solid white;
+}
 /* End Of Footer Section */
 
 /* Responsive Section */
@@ -167,5 +183,8 @@ img {
     img {
         width: 100%;
         height: auto;
+    }
+    .header {
+        height: 200px;
     }
 }
